@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	height:100px;
+	width:200px;
+	margin-left:-90%;
+}
+.nav-item{
+	margin-left:5%;
+}
+#home{
+	margin-left:1000%;
+	margin-top:40%;
+}
+#about{
+	margin-left:950%;
+	margin-top:35%;
+}
+#services{
+	margin-left:800%;
+	margin-top:30%;
+}
+#contact{
+	margin-left:800%;
+	margin-top:30%;
+}
+#pic2{
+	height:500px;
+	width:700px;
+	margin-top:5%;
+	margin-left:30%;
+	border-radius:10px;
+}
+h3{
+	margin-left:20%;
+	font-style:italic;
+	margin-top:15px;
+}
+h1{
+	margin-left:10%;
+	font-size:30px;
+	margin-top:5%;
+}
+p{
+	margin-left:10%;
+	font-size:20px;
+	margin-right:10%;
+	text-align:justify;
+	margin-top:20px;
+}
+#pic1{
+	height:400px;
+	width:600px;
+	border-radius:10px;
+	margin-left:30%;
+}
+footer{
+	height:50px;
+	width:100%;
+	background:black;
+}
+footer h3{
+	color:white;
+	font-size:20px;
+	margin-left:35%;
+	padding:1%;
+}
+.contactbox{
+	height:700px;
+	width:600px;
+	background:#37d2d7;
+	border-radius:10px;
+	margin-top:3%;
+	margin-left:35%;
+}
+.contactbox label{
+	margin-left:10%;
+	font-size:20px;
+	color:white;
+	margin-top:10%;
+}
+.contactbox input{
+	border-radius:5px;
+	margin-left:10%;
+	width:400px;
+	height:40px;
+}
+.contactbox select{
+	width:400px;
+	margin-left:10%;
+	height:40px;
+}
+#logo1{
+	height:50px;
+	width:50px;
+	border-radius:50%;
+	margin-left:20%;
+	margin-top:6%;
+}
+@media(max-width:700px){
+	#logo{
+		margin-left:60%;
+		margin-top:-10.5%;
+	}
+	.nav-item #home{
+		margin-left:-100%;
+		margin-top:-10%;
+	}
+	.nav-item #about{
+		margin-left:-100%;
+		margin-top:5%;
+	}
+	.nav-item #services{
+		margin-left:-98%;
+		margin-top:5%;
+	}
+	.nav-item #contact{
+		margin-left:-98%;
+		margin-top:5%;
+	}
+	footer h3{
+		margin-left:10%;
+	}
+	#pic1{
+		margin-left:10%;
+		margin-top:10%;
+		width:80%;
+	}
+	h3{
+		margin-left:10%;
+	}
+}

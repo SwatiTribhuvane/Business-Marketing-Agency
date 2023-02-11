@@ -1,0 +1,133 @@
+*{
+	margin:0;
+	padding:0;
+}
+img{
+	height:100px;
+	width:200px;
+	margin-left:-90%;
+}
+.nav-item{
+	margin-left:5%;
+}
+#home{
+	margin-left:1000%;
+	margin-top:40%;
+}
+#about{
+	margin-left:950%;
+	margin-top:35%;
+}
+#services{
+	margin-left:800%;
+	margin-top:30%;
+}
+#contact{
+	margin-left:800%;
+	margin-top:30%;
+}
+section{  
+height:430px;
+display:flex;
+background:#c7cbcc;
+background-size:100% 100%;
+}
+#pic{
+height:430px;
+margin-top:0px;
+margin-left:700px;
+width:800px;
+}
+h1{
+margin-top:40px;
+margin-left:-95%;
+font-size:50px;
+}
+p{
+margin-top:240px;
+margin-left:-19%;
+font-size:22px;
+font-style:italic;
+}
+#btn{
+background:black;
+color:white;
+border-radius:25px;
+margin-top:360px;
+margin-left:-29%;
+border:none;
+height:40px;
+width:180px;
+}
+#p1{
+	margin-top:8%;
+	margin-left:10%;
+	margin-right:10%;
+}
+#element{
+	margin-left:30%;
+}
+#brandpic{
+	margin-left:20%;
+	border-radius:5px;
+	height:500px;
+	width:1000px;
+	margin-top:3%;
+}
+h3{
+	margin-left:10%;
+	margin-top:3%;
+}
+#p2{
+	margin-top:2%;
+	margin-left:10%;
+	margin-right:10%;
+}
+footer{
+	height:50px;
+	width:100%;
+	background:black;
+}
+footer h3{
+	color:white;
+	font-size:20px;
+	margin-left:35%;
+	padding:1%;
+}
+@media(max-width:700px){
+	@media(max-width:700px){
+	#logo{
+		margin-left:60%;
+		margin-top:-10.5%;
+	}
+	.nav-item #home{
+		margin-left:-100%;
+		margin-top:-10%;
+	}
+	.nav-item #about{
+		margin-left:-100%;
+		margin-top:5%;
+	}
+	.nav-item #services{
+		margin-left:-98%;
+		margin-top:5%;
+	}
+	.nav-item #contact{
+		margin-left:-98%;
+		margin-top:5%;
+	}
+	#element{
+		margin-left:10%;
+	}
+	#brandpic{
+		height:100%;
+		margin-left:10%;
+		width:80%;
+	}
+	h3{
+		margin-top:10%;
+	}
+	footer h3{
+		margin-left:10%;
+	}
+}
